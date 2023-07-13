@@ -40,5 +40,10 @@ button:hover {
 .division2 {
   height: 250px;
   width: 100%;
+  /* font-size: 200px; */
   /* background-color: black; */
+}
+
+h1 {
+  display: none;
 }

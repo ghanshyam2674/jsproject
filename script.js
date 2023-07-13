@@ -1,9 +1,10 @@
 let division2 = document.getElementById("division2")
+division2.style.fontSize = "50px"
 
 let tringle = () => {
     b = 200;
     h = 200;
-    a = (1 / 2) * b * h;
+    a = (1/2)*b*h;
     division2.innerHTML = a;
 }
 
@@ -15,7 +16,7 @@ let percentages = () => {
     science = 20;
     evs = 40;
     total = (hindi + english + maths + science);
-    per = (total / 5)
+    per = (total/5)
     division2.innerHTML = per;
 }
 
@@ -34,4 +35,9 @@ let compound=()=>{
     r = 4
     t= 23
     
+}
+
+
+let remove=()=>{
+    division2.innerHTML="mouse hata "
 }
