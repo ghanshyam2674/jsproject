@@ -34,7 +34,9 @@ let compound=()=>{
     p =40000
     r = 4
     t= 23
-    
+    n=2
+    a = p*(r/n)*(n*t)
+    division2.innerHTML = a
 }
 
 

@@ -37,13 +37,12 @@ button:hover {
   color: white;
 }
 
-.division2 {
-  height: 250px;
+#division2 {
+  height: 50px;
   width: 100%;
-  /* font-size: 200px; */
-  /* background-color: black; */
-}
-
-h1 {
-  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200px;
+  background-color: green;
 }
